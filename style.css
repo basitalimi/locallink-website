@@ -26,6 +26,11 @@ nav a{
 color:white;
 text-decoration:none;
 font-weight:bold;
+transition:color 0.3s;
+}
+
+nav a:hover{
+color:#f7c600;
 }
 
 .hero{
@@ -59,6 +64,8 @@ font-weight:bold;
 
 .cta-btn:hover{
 background:#4a116d;
+transform:scale(1.05);
+transition:0.3s;
 }
 
 @media(max-width:768px){
@@ -77,4 +84,145 @@ padding:0;
 font-size:40px;
 }
 
+}
+.page-content{
+padding:80px 40px;
+}
+
+.page-content h2{
+background:#f7c600;
+display:inline-block;
+padding:10px 30px;
+border-radius:6px;
+font-size:40px;
+}
+
+.page-content p{
+max-width:800px;
+font-size:20px;
+line-height:1.6;
+}
+
+.page-content ul{
+font-size:20px;
+line-height:2;
+}
+.pricing-container{
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:50px;
+}
+
+.pricing-card{
+background:white;
+padding:30px;
+border-radius:10px;
+width:250px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.pricing-card h3{
+font-size:30px;
+color:#6a1b9a;
+}
+
+.price{
+font-size:28px;
+font-weight:bold;
+margin:20px 0;
+}
+
+.pricing-card ul{
+list-style:none;
+padding:0;
+line-height:2;
+}
+.dashboard-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+margin-top:50px;
+}
+
+.dashboard-card{
+background:white;
+padding:30px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.dashboard-card h3{
+color:#6a1b9a;
+font-size:24px;
+}
+
+.dashboard-card p{
+font-size:35px;
+font-weight:bold;
+margin-top:20px;
+color:#f7c600;
+}
+.contact-container{
+display:flex;
+gap:40px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.contact-info{
+flex:1;
+min-width:250px;
+}
+
+.contact-form{
+flex:1;
+display:flex;
+flex-direction:column;
+gap:20px;
+min-width:250px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:15px;
+border:none;
+border-radius:6px;
+font-size:16px;
+}
+
+.contact-form textarea{
+height:150px;
+resize:none;
+}
+
+.contact-form button{
+background:#6a1b9a;
+color:white;
+padding:15px;
+border:none;
+border-radius:6px;
+font-size:18px;
+cursor:pointer;
+}
+
+.contact-form button:hover{
+background:#4a116d;
+}
+.hero-image{
+width:80%;
+max-width:700px;
+margin-top:40px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+footer{
+background:#6a1b9a;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:60px;
 }
