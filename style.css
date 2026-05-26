@@ -1,0 +1,80 @@
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#bfe4f2;
+}
+
+nav{
+background:#6a1b9a;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 30px;
+}
+
+.logo{
+color:white;
+}
+
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h2{
+background:#f7c600;
+display:inline-block;
+padding:10px 40px;
+font-size:60px;
+border-radius:8px;
+}
+
+.hero p{
+font-size:22px;
+margin-top:20px;
+}
+
+.cta-btn{
+display:inline-block;
+margin-top:30px;
+background:#6a1b9a;
+color:white;
+padding:15px 30px;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+}
+
+.cta-btn:hover{
+background:#4a116d;
+}
+
+@media(max-width:768px){
+
+nav{
+flex-direction:column;
+}
+
+nav ul{
+flex-direction:column;
+text-align:center;
+padding:0;
+}
+
+.hero h2{
+font-size:40px;
+}
+
+}
